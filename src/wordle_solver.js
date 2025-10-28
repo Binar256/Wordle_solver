@@ -154,7 +154,7 @@ export default class WordleSolver {
         }   
         
         return (async () => {
-            let status = startingWord ? await game.guess(startingWord) : WordleSolver.#getOptimalWord(allowedGuesses, possibleSolutions, letterStatus);
+            let status = await game.guess(startingWord || WordleSolver.#getOptimalWord(allowedGuesses, possibleSolutions, letterStatus));
 
             while (!status.end) {
                 WordleSolver.#changeLetterStatus(letterStatus, status.result);
