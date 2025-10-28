@@ -1,0 +1,24 @@
+{
+    "terminalWordleSolver": {
+        "numOfSuggestedWords": 10,
+        "wordLength": 5
+    },
+    "test": {
+        "runStatic": true,
+        "runInstance": false,
+        "options": {
+            "runWithSortingWords": false,
+            "createTotalPerformanceFile": true,
+            "createDetailedPerformanceFile": true,
+            "logTotalPerformance": true,
+            "async": false,
+            "startingWord": "crane",
+            "omitPossibleSolutions": false
+        }
+    },
+    "relativePaths": {
+        "allowedGuesses": "../word_lists/allowed_guesses.txt",
+        "possibleSolutions": "../word_lists/possible_solutions.txt",
+        "performanceDir": "performance"
+    }
+}

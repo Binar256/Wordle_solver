@@ -1,0 +1,28 @@
+{
+  "testType": "static",
+  "startingWord": "crane",
+  "allowedGuessesLength": 12972,
+  "possibleSolutionsLength": 2315,
+  "wins": 2315,
+  "losses": 0,
+  "totalTimeInS": 63.327328,
+  "averageTimeInMS": 27.35521727861771,
+  "totalGuessCount": 8606,
+  "averageGuesses": 3.7174946004319653,
+  "guessCountOnPosition": [
+    1,
+    44,
+    792,
+    1259,
+    209,
+    10
+  ],
+  "guessPercentage": [
+    0.04319654427645788,
+    1.900647948164147,
+    34.21166306695464,
+    54.38444924406048,
+    9.028077753779698,
+    0.4319654427645789
+  ]
+}

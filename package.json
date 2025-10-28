@@ -1,0 +1,40 @@
+{
+    "name": "@binar256/wordle-solver",
+    "version": "1.0.1",
+    "description": "A JavaScript library for solving Wordle-like games.",
+    "keywords": [
+        "javascript", "game", "automation", "library", "algorithm",
+        "js", "simulation", "gpl-3-or-later", "commonjs", "solver", 
+        "npm-package", "javascript-library", "words", "wordle", "javascript-game",
+        "word-game", "esm", "javascript-library", "wordle-solver", "wordle-helper"
+    ],
+    "homepage": "https://github.com/Binar256/Wordle_solver",
+    "license": "GPL-3.0-or-later",
+    "author": "Binar256",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./src/index.js",
+            "require": "./src/require_imports/wordle_solver.cjs"
+        },
+        "./wordle": {
+            "import": "./src/wordle.js",
+            "require": "./src/require_imports/wordle.cjs"
+        }
+    },
+    "files": [
+        "src",
+        "LICENSE",
+        "README.md"
+    ],
+    "bugs": {
+        "url": "https://github.com/Binar256/Wordle_solver/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Binar256/Wordle_solver.git"
+    },
+    "engines": {
+        "node": ">=16"
+    }
+}
