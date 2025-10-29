@@ -1,6 +1,6 @@
 {
     "name": "@binar256/wordle-solver",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A JavaScript library for solving Wordle-like games.",
     "keywords": [
         "javascript", "game", "automation", "library", "algorithm",
